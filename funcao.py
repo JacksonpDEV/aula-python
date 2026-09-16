@@ -4,10 +4,14 @@ def media(a, b):
 def soma(x, y):
     return x + y
 
+def produto(x, y):
+    return x * y
+
 def main():
     n1 = int(input("Digite o primeiro valor: "))
     n2 = int(input("Digite o segundo valor: "))
     print(media(n1 , n2))
     print(soma(n1 , n2))
+    print(produto(n1,n2))
 
 main()
